@@ -3,7 +3,7 @@
         const gameArea = document.querySelector(".gameArea");   //road on which car runs
         const player = {speed:5,score:0};
         //song that is playing
-        let song = new Audio("music/song.mp3");
+        let song = new Audio("./music/song.mp3");
         song.volume = 0.1;
         //buttons in mobile view
         let right = document.getElementById("rightbtn");
